@@ -1,5 +1,8 @@
-package com.api.security;
+package com.api.config;
 
+import com.api.security.JwtAuthenticationEntryPoint;
+import com.api.security.JwtAuthenticationFilter;
+import com.api.security.PollUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
